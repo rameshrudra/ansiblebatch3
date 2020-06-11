@@ -1,6 +1,6 @@
 - hosts: linux
   vars:
-    teams: [csk, rcb, mi, srh]
+    teams: [csk, rcb, mi, srh, dd]
   tasks:
   - name: print list variables
     debug:
